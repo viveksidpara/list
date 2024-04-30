@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-image: url('login.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        header {
+    background-color: #366ef1;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+li :hover{
+    color: rgb(0, 102, 255);
+    background-color: #fff;
+} 
+.main {
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+h1 {
+    color: black
+}
+h2{
+    color: blue;
+}
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+}
+button {
+
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    width: 100%;
+    font-size: 16px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+    </style>
+</head>
+<body>
+    <center>
+        <div class="main">
+            <form action="">
+                
+                <div class="cell">
+                    <label for="First name">First name</label>
+                    <input type="text" placeholder="" id="text" size="#" required>
+                </div>
+                <div class="cell">
+                    <label for="Last name">Last name</label>
+                    <input type="text" placeholder="" id="text" >
+                </div>
+                <div class="cell">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="" id="text">
+                </div>
+                <div class="cell">
+                    <label for="E-mail id">E-mail ID</label>
+                    <input type="email" placeholder="" id="text" >
+                </div>
+                <div class="wrap">
+                    <a href="loginpage.html">
+                        <input type="button"
+                                value="submit">
+                    </a>
+                </div>
+            </form> 
+        </div>
+    </body>
+</html>
